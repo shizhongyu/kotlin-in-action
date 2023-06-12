@@ -19,4 +19,5 @@ class FacebookUser(val accountId: Int) : User {
 fun main(args: Array<String>) {
     println(PrivateUser("test@kotlinlang.org").nickname)
     println(SubscribingUser("test@kotlinlang.org").nickname)
+    println(FacebookUser(10).nickname)
 }

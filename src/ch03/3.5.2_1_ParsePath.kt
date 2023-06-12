@@ -7,7 +7,7 @@ fun parsePath(path: String) {
     val fileName = fullName.substringBeforeLast(".")
     val extension = fullName.substringAfterLast(".")
 
-    println("Dir: $directory, name: $fileName, ext: $extension")
+    println("Dir: $directory, fullName: $fullName, name: $fileName, ext: $extension")
 }
 
 fun main(args: Array<String>) {

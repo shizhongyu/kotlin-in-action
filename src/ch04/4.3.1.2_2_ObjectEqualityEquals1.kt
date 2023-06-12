@@ -13,4 +13,8 @@ class Client(val name: String, val postalCode: Int) {
 fun main(args: Array<String>) {
     val processed = hashSetOf(Client("Alice", 342562))
     println(processed.contains(Client("Alice", 342562)))
+
+    val client1 = Client("Alice", 342562)
+    val client2 = Client("Alice", 342562)
+    println(client1 == client2)
 }
